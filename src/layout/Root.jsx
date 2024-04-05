@@ -1,12 +1,9 @@
-import { Outlet } from "react-router-dom";
-import Home from "../Pages/Home";
-
+import { Outlet } from "react-router-dom"; 
  
 
 const Root = () => {
     return (
         <div className="max-w-7xl mx-auto font-poppins">
-            <Home></Home>
             <Outlet/>
         </div>
     );
